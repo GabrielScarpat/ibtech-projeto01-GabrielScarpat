@@ -41,7 +41,7 @@ section {
     padding-bottom: 4rem;
 }
 
-body.tema-claro {
+html.tema-claro {
     --cor-fundo: #f0ede8;
     --cor-fundo-secundario: #dde3ea;
     --cor-texto: #0d1b2a;
@@ -327,6 +327,9 @@ video {
         text-align: center;
         padding: 0.5rem 0;
         border-top: 1px solid var(--cor-destaque);
+    }
+     #toggle-tema {
+        margin-left: 0;
     }
 }
 @media (max-width: 1024px) {

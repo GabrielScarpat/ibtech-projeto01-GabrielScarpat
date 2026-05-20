@@ -11,6 +11,13 @@
     <meta property="og:image" content="IMG_1290.jpg">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/favicon.png">
+    <script>
+    const temaSalvo = localStorage.getItem('tema');
+    const sistemaClaro = window.matchMedia('(prefers-color-scheme: light)').matches;
+    if (temaSalvo === 'claro' || (temaSalvo === null && sistemaClaro)) {
+        document.documentElement.classList.add('tema-claro');
+    }
+</script>
 </head>
   
 <body>
