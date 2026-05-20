@@ -2,12 +2,14 @@ const botao = document.getElementById('toggle-tema');
 
 if (document.documentElement.classList.contains('tema-claro')) {
     botao.textContent = '🌑';
+} else {
+    botao.textContent = '🌙';
 }
 
-botao.addEventListener('click', function() {
-    document.body.classList.toggle('tema-claro');
+botao.addEventListener('click', function () {
+    document.documentElement.classList.toggle('tema-claro');
 
-    if (document.body.classList.contains('tema-claro')) {
+    if (document.documentElement.classList.contains('tema-claro')) {
         localStorage.setItem('tema', 'claro');
         botao.textContent = '🌑';
     } else {
