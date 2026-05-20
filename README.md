@@ -3,7 +3,7 @@
 ### Turma: IbTech Frontend 2026.1
 
 ## **Descrição**
-### Este projeto é um portfólio pessoal desenvolvido como um cartão de visita digital. Ele reúne informações sobre minha trajetória, projetos, experiências, habilidades, redes sociais e formas de contato.
+ Este projeto é um portfólio pessoal desenvolvido como um cartão de visita digital. Ele reúne informações sobre minha trajetória, projetos, experiências, habilidades, redes sociais e formas de contato.
 
 ## **Tecnologias utilizadas**
 - HTML5
@@ -18,7 +18,7 @@
 - Cards com animações
 
 ##  **Como rodar o projeto**
-### Para abrir o projeto, basta baixar os arquivos e abrir o arquivo index.html no navegador.
+ Para abrir o projeto, basta baixar os arquivos e abrir o arquivo index.html no navegador.
 
 # Autor
 # Gabriel Scarpat

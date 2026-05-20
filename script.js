@@ -1,6 +1,9 @@
 const botao = document.getElementById('toggle-tema');
 
-if (localStorage.getItem('tema') === 'claro') {
+const temaSalvo = localStorage.getItem('tema');
+const sistemaClaro = window.matchMedia('(prefers-color-scheme: light)').matches;
+
+if (temaSalvo === 'claro' || (temaSalvo === null && sistemaClaro)) {
     document.body.classList.add('tema-claro');
     botao.textContent = '🌑';
 }
