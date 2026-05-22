@@ -1,20 +1,12 @@
 const botao = document.getElementById('toggle-tema');
 
-if (document.documentElement.classList.contains('tema-claro')) {
-    botao.textContent = '🌑';
-} else {
-    botao.textContent = '🌙';
-}
-
 botao.addEventListener('click', function () {
     document.documentElement.classList.toggle('tema-claro');
 
     if (document.documentElement.classList.contains('tema-claro')) {
         localStorage.setItem('tema', 'claro');
-        botao.textContent = '🌑';
     } else {
         localStorage.setItem('tema', 'escuro');
-        botao.textContent = '🌙';
     }
 });
 const botaoCopiar = document.getElementById('copiar-email');
